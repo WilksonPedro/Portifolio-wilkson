@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: blueviolet;
+:root{
+    --color-red: #e3646e;
+    --color-purple: #bb72e9;
+    --color-blue: #3996db;
+    --color-green: #82bc4f;
+    --color-yellow: #eabd5f;
+
+    --color-gray-100: #0d0e11;
+    --color-gray-200: #16181d;
+    --color-gray-300: #292c34;
+    --color-gray-400: #878ea1;
+    --color-gray-500: #c0c4ce;
+    --color-gray-600: #e2e4e9;
+    /*Asap font*/
+    --title-lg: 56px 120% bold;
+    --title-md: 14px 120% bold;
+    --title-sm: 16px 120% bold;
+    /*Inconsolata*/
+    --subitle: 20px 120% normal;
+    /*Maven Pro*/
+    --text-md: 16px 140% normal;
+    --text-sm: 14px 140% normal;
 }
+
+
