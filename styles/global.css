@@ -18,14 +18,29 @@
     --color-gray-500: #c0c4ce;
     --color-gray-600: #e2e4e9;
     /*Asap font*/
-    --title-lg: 56px 120% bold;
-    --title-md: 14px 120% bold;
-    --title-sm: 16px 120% bold;
+    --font-family-asap: 'Asap', sans-serif;
+    --h1-title-lg: bold 3.5rem/1.2 var(--font-family-asap);
+    --h2-title-md: bold .8rem/1.2 var(--font-family-asap);
+    --h3-title-sm: bold 1rem/1.2 var(--font-family-asap);
     /*Inconsolata*/
-    --subitle: 20px 120% normal;
+    --font-family-inconsolata: 'Inconsolata', sans-serif;
+    --h2-subitle: normal 2.2rem/1.2 var(--font-family-inconsolata);
     /*Maven Pro*/
-    --text-md: 16px 140% normal;
-    --text-sm: 14px 140% normal;
+    --font-family-default: 'Maven Pro', sans-serif;
+    --text-md: normal 1rem/140% var(--font-family-default);
+    --text-sm: normal .8rem/140% var(--font-family-default);
 }
 
+body{ 
+    font-family: var(--font-family-default);
+    background-color: var(--color-gray-100);
+    color:var(--color-gray-500)
+}
 
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}

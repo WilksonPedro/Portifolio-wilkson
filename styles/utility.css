@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
