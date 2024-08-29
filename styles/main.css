@@ -55,6 +55,7 @@ figcaption{
 .services {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     align-items: center;
     padding: 88px 120px 120px 120px;
 }
