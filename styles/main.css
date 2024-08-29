@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 1050px;
+    gap: 24px;
+}
+
+.card-color{
+    width: 330px;
+    background-color: var(--color-gray-300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.cards figure img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+figcaption{
+    width: 300px;
+
+}

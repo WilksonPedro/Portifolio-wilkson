@@ -3,9 +3,12 @@
 }
 
 .flex {
+    height: 100%;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 56px;
 }
 
 .grid-flow-col {
