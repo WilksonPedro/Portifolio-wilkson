@@ -50,5 +50,45 @@ gap: 8px;
 
 figcaption{
     width: 300px;
+}
 
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 120px 120px 120px;
+}
+
+.header-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 56px;
+}
+
+.header-services h2 {
+    font: var(--h2-subitle);
+    color: var(--color-red);
+}
+
+.header-services p {
+    font: var(--h1-title-lg)
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.service-item {
+    display: flex;
+    width: 280px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }
