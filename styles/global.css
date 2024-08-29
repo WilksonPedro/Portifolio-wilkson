@@ -33,7 +33,7 @@
 
 body{ 
     font-family: var(--font-family-default);
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-200);
     color:var(--color-gray-500)
 }
 

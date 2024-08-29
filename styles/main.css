@@ -3,13 +3,31 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.intro-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+}
+
+.intro-main h2 {
+    font: var(--h2-subitle);
+    color: var(--color-red);
+}
+
+.intro-main p {
+    font: var(--h1-title-lg);
+    color: var(--color-gray-600);
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid white;
+    justify-content: center;
+    margin-top: 56px;
+    margin: 72px 120px 144px 120px;
     width: 1050px;
     gap: 24px;
 }
@@ -17,10 +35,10 @@ main {
 .card-color{
     width: 330px;
     background-color: var(--color-gray-300);
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px;
+    border-radius: 12px;
 }
 
 .cards figure img{
